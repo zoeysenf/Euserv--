@@ -35,4 +35,4 @@ jobs:
           msg_to: ${{ secrets.msg_to }}
           smtp: ${{ secrets.smtp }}
           port: ${{ secrets.port }}
-        run: python main.py
+        run: python EUservAuto.py
