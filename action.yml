@@ -6,8 +6,8 @@ on:
     types: started
     branches:
       - main
-  schedule:
-    - cron: '00 02 * * *'
+schedule:
+  - cron: "0 2 * * *"
 
 jobs:
   auto_renew:
